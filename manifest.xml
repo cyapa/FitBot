@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="positivecues-d80f3a" version="0.0.0">
+ <names>
+  <name lang="en_US">PositiveCues</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">start_exercise</name>
+   </names>
+   <loadingResponses>
+    <sentence lang="en_US">I am doing well</sentence>
+   </loadingResponses>
+   <autonomous>
+    <condition purpose="launchTrigger"><![CDATA[1==1]]></condition>
+   </autonomous>
+   <permissions>
+    <canRunOnPod/>
+    <canStandUp/>
+    <canSitDown/>
+   </permissions>
+  </behaviorContent>
+ </contents>
+</package>
